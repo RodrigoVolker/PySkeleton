@@ -1,0 +1,27 @@
+This skeleton directory has all the basics needed to start a new project:
+	Project layout
+	Automated tests
+	Modules
+	Install scripts
+
+
+Using the Skeleton
+1. Make project directory
+2. Copy skeleton files to project directory
+3. Rename everything with NAME to project or desired main module name
+4. Edit setup.py for the project
+5. Remove all *.pyc files to make sure it's clean before testing
+
+
+Testing Guidlines
+1. Name test files BLAH_tests.py
+2. Write 1 test file for each module
+3. Keep test cases (functions) short and clean. Avoid duplicate code with helper functions.
+4. Sometimes delete tests and start over.
+
+
+Suggested packages:
+	pip, distribute/Setuptools, nose, virtualenv
+
+Based on Zed Shaw's "Learn Python The Hard Way" ex46 and ex47
+By Damon McCullough, 7/18/16
